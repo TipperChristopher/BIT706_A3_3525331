@@ -1,0 +1,48 @@
+### YamlMime:TableOfContent
+- uid: Assessment3
+  name: Assessment3
+  items:
+  - uid: Assessment3.Accounts
+    name: Accounts
+  - uid: Assessment3.Adding
+    name: Adding
+  - uid: Assessment3.AddingCustomer
+    name: AddingCustomer
+  - uid: Assessment3.Customer
+    name: Customer
+  - uid: Assessment3.CustomerIterator
+    name: CustomerIterator
+  - uid: Assessment3.CustomersMenu
+    name: CustomersMenu
+  - uid: Assessment3.Deleting
+    name: Deleting
+  - uid: Assessment3.DeletingCustomer
+    name: DeletingCustomer
+  - uid: Assessment3.Editing
+    name: Editing
+  - uid: Assessment3.EditingCustomer
+    name: EditingCustomer
+  - uid: Assessment3.Everyday
+    name: Everyday
+  - uid: Assessment3.Finding
+    name: Finding
+  - uid: Assessment3.FindingCustomer
+    name: FindingCustomer
+  - uid: Assessment3.frmControl
+    name: frmControl
+  - uid: Assessment3.IAccounts
+    name: IAccounts
+  - uid: Assessment3.IIterator
+    name: IIterator
+  - uid: Assessment3.Investment
+    name: Investment
+  - uid: Assessment3.IObserver
+    name: IObserver
+  - uid: Assessment3.Library
+    name: Library
+  - uid: Assessment3.MainMenu
+    name: MainMenu
+  - uid: Assessment3.ManageAccounts
+    name: ManageAccounts
+  - uid: Assessment3.Omni
+    name: Omni
