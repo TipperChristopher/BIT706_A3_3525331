@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assessment3.IAccounts
+  commentId: T:Assessment3.IAccounts
+  id: IAccounts
+  parent: Assessment3
+  children:
+  - Assessment3.IAccounts.AttachObserver(Assessment3.IObserver)
+  - Assessment3.IAccounts.NotifyObservers(Assessment3.Customer)
+  langs:
+  - csharp
+  - vb
+  name: IAccounts
+  nameWithType: IAccounts
+  fullName: Assessment3.IAccounts
+  type: Interface
+  source:
+    id: IAccounts
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Interface.cs
+    startLine: 13
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public interface IAccounts
+    content.vb: Public Interface IAccounts
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Assessment3.IAccounts.AttachObserver(Assessment3.IObserver)
+  commentId: M:Assessment3.IAccounts.AttachObserver(Assessment3.IObserver)
+  id: AttachObserver(Assessment3.IObserver)
+  parent: Assessment3.IAccounts
+  langs:
+  - csharp
+  - vb
+  name: AttachObserver(IObserver)
+  nameWithType: IAccounts.AttachObserver(IObserver)
+  fullName: Assessment3.IAccounts.AttachObserver(Assessment3.IObserver)
+  type: Method
+  source:
+    id: AttachObserver
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Interface.cs
+    startLine: 15
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: void AttachObserver(IObserver obs)
+    parameters:
+    - id: obs
+      type: Assessment3.IObserver
+    content.vb: Sub AttachObserver(obs As IObserver)
+  overload: Assessment3.IAccounts.AttachObserver*
+- uid: Assessment3.IAccounts.NotifyObservers(Assessment3.Customer)
+  commentId: M:Assessment3.IAccounts.NotifyObservers(Assessment3.Customer)
+  id: NotifyObservers(Assessment3.Customer)
+  parent: Assessment3.IAccounts
+  langs:
+  - csharp
+  - vb
+  name: NotifyObservers(Customer)
+  nameWithType: IAccounts.NotifyObservers(Customer)
+  fullName: Assessment3.IAccounts.NotifyObservers(Assessment3.Customer)
+  type: Method
+  source:
+    id: NotifyObservers
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Interface.cs
+    startLine: 16
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: void NotifyObservers(Customer c)
+    parameters:
+    - id: c
+      type: Assessment3.Customer
+    content.vb: Sub NotifyObservers(c As Customer)
+  overload: Assessment3.IAccounts.NotifyObservers*
+references:
+- uid: Assessment3
+  commentId: N:Assessment3
+  name: Assessment3
+  nameWithType: Assessment3
+  fullName: Assessment3
+- uid: Assessment3.IAccounts.AttachObserver*
+  commentId: Overload:Assessment3.IAccounts.AttachObserver
+  name: AttachObserver
+  nameWithType: IAccounts.AttachObserver
+  fullName: Assessment3.IAccounts.AttachObserver
+- uid: Assessment3.IObserver
+  commentId: T:Assessment3.IObserver
+  parent: Assessment3
+  name: IObserver
+  nameWithType: IObserver
+  fullName: Assessment3.IObserver
+- uid: Assessment3.IAccounts.NotifyObservers*
+  commentId: Overload:Assessment3.IAccounts.NotifyObservers
+  name: NotifyObservers
+  nameWithType: IAccounts.NotifyObservers
+  fullName: Assessment3.IAccounts.NotifyObservers
+- uid: Assessment3.Customer
+  commentId: T:Assessment3.Customer
+  parent: Assessment3
+  name: Customer
+  nameWithType: Customer
+  fullName: Assessment3.Customer

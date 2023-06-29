@@ -1,0 +1,531 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assessment3.AddingCustomer
+  commentId: T:Assessment3.AddingCustomer
+  id: AddingCustomer
+  parent: Assessment3
+  children:
+  - Assessment3.AddingCustomer.#ctor
+  - Assessment3.AddingCustomer.#ctor(System.String)
+  - Assessment3.AddingCustomer.#ctor(System.String,System.Int32)
+  - Assessment3.AddingCustomer.Info
+  langs:
+  - csharp
+  - vb
+  name: AddingCustomer
+  nameWithType: AddingCustomer
+  fullName: Assessment3.AddingCustomer
+  type: Class
+  source:
+    id: AddingCustomer
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Customer.cs
+    startLine: 40
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: 'public class AddingCustomer : Customer'
+    content.vb: >-
+      Public Class AddingCustomer
+          Inherits Customer
+  inheritance:
+  - System.Object
+  - Assessment3.Customer
+  inheritedMembers:
+  - Assessment3.Customer.Customers
+  - Assessment3.Customer.ID
+  - Assessment3.Customer.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assessment3.AddingCustomer.#ctor
+  commentId: M:Assessment3.AddingCustomer.#ctor
+  id: '#ctor'
+  parent: Assessment3.AddingCustomer
+  langs:
+  - csharp
+  - vb
+  name: AddingCustomer()
+  nameWithType: AddingCustomer.AddingCustomer()
+  fullName: Assessment3.AddingCustomer.AddingCustomer()
+  type: Constructor
+  source:
+    id: .ctor
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Customer.cs
+    startLine: 42
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public AddingCustomer()
+    content.vb: Public Sub New
+  overload: Assessment3.AddingCustomer.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assessment3.AddingCustomer.#ctor(System.String)
+  commentId: M:Assessment3.AddingCustomer.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Assessment3.AddingCustomer
+  langs:
+  - csharp
+  - vb
+  name: AddingCustomer(String)
+  nameWithType: AddingCustomer.AddingCustomer(String)
+  fullName: Assessment3.AddingCustomer.AddingCustomer(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Customer.cs
+    startLine: 46
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public AddingCustomer(string newCustomer)
+    parameters:
+    - id: newCustomer
+      type: System.String
+    content.vb: Public Sub New(newCustomer As String)
+  overload: Assessment3.AddingCustomer.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assessment3.AddingCustomer.#ctor(System.String,System.Int32)
+  commentId: M:Assessment3.AddingCustomer.#ctor(System.String,System.Int32)
+  id: '#ctor(System.String,System.Int32)'
+  parent: Assessment3.AddingCustomer
+  langs:
+  - csharp
+  - vb
+  name: AddingCustomer(String, Int32)
+  nameWithType: AddingCustomer.AddingCustomer(String, Int32)
+  fullName: Assessment3.AddingCustomer.AddingCustomer(System.String, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Customer.cs
+    startLine: 47
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public AddingCustomer(string newCustomer, int newID)
+    parameters:
+    - id: newCustomer
+      type: System.String
+    - id: newID
+      type: System.Int32
+    content.vb: Public Sub New(newCustomer As String, newID As Integer)
+  overload: Assessment3.AddingCustomer.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assessment3.AddingCustomer.Info
+  commentId: M:Assessment3.AddingCustomer.Info
+  id: Info
+  parent: Assessment3.AddingCustomer
+  langs:
+  - csharp
+  - vb
+  name: Info()
+  nameWithType: AddingCustomer.Info()
+  fullName: Assessment3.AddingCustomer.Info()
+  type: Method
+  source:
+    id: Info
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Customer.cs
+    startLine: 52
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public override string Info()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function Info As String
+  overridden: Assessment3.Customer.Info
+  overload: Assessment3.AddingCustomer.Info*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Assessment3
+  commentId: N:Assessment3
+  name: Assessment3
+  nameWithType: Assessment3
+  fullName: Assessment3
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Assessment3.Customer
+  commentId: T:Assessment3.Customer
+  parent: Assessment3
+  name: Customer
+  nameWithType: Customer
+  fullName: Assessment3.Customer
+- uid: Assessment3.Customer.Customers
+  commentId: P:Assessment3.Customer.Customers
+  parent: Assessment3.Customer
+  name: Customers
+  nameWithType: Customer.Customers
+  fullName: Assessment3.Customer.Customers
+- uid: Assessment3.Customer.ID
+  commentId: P:Assessment3.Customer.ID
+  parent: Assessment3.Customer
+  name: ID
+  nameWithType: Customer.ID
+  fullName: Assessment3.Customer.ID
+- uid: Assessment3.Customer.ToString
+  commentId: M:Assessment3.Customer.ToString
+  parent: Assessment3.Customer
+  name: ToString()
+  nameWithType: Customer.ToString()
+  fullName: Assessment3.Customer.ToString()
+  spec.csharp:
+  - uid: Assessment3.Customer.ToString
+    name: ToString
+    nameWithType: Customer.ToString
+    fullName: Assessment3.Customer.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Assessment3.Customer.ToString
+    name: ToString
+    nameWithType: Customer.ToString
+    fullName: Assessment3.Customer.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assessment3.AddingCustomer.#ctor*
+  commentId: Overload:Assessment3.AddingCustomer.#ctor
+  name: AddingCustomer
+  nameWithType: AddingCustomer.AddingCustomer
+  fullName: Assessment3.AddingCustomer.AddingCustomer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Assessment3.Customer.Info
+  commentId: M:Assessment3.Customer.Info
+  parent: Assessment3.Customer
+  name: Info()
+  nameWithType: Customer.Info()
+  fullName: Assessment3.Customer.Info()
+  spec.csharp:
+  - uid: Assessment3.Customer.Info
+    name: Info
+    nameWithType: Customer.Info
+    fullName: Assessment3.Customer.Info
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Assessment3.Customer.Info
+    name: Info
+    nameWithType: Customer.Info
+    fullName: Assessment3.Customer.Info
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assessment3.AddingCustomer.Info*
+  commentId: Overload:Assessment3.AddingCustomer.Info
+  name: Info
+  nameWithType: AddingCustomer.Info
+  fullName: Assessment3.AddingCustomer.Info

@@ -1,0 +1,402 @@
+{
+  "homepages": [],
+  "source_base_path": "F:/Open Polytechnic/Open Polytechnic Bachelor Degree in Information Technology/BIT706 Programming 3/BIT706_Assessment2_3525331_Christopher_Tipper/Assessment2PartA/Assessment2PartA",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "ZcRFJgNhvhM6kAH28Vkb5TxxGPe7FlftmernEpHWKBw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "yF4cM99miGSsrT64oV0kgkl56YkQylthgw5Gl1aJqzo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "GGOovSab6ZFxRkwbTiKX/AxcXz9WU1qSZOSIhjRqq74="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Assessment3.Accounts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assessment3.Accounts.html",
+          "hash": "LcROG8cb7i3NdvQWdq8slzPHKcua3bZz5VQ0KsAojZU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Assessment3.Adding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assessment3.Adding.html",
+          "hash": "ahlQeTUL5AW7nzcNvanDz5LXMe++yeka4+OyQEx9tGo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Assessment3.AddingCustomer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assessment3.AddingCustomer.html",
+          "hash": "T5Q4hH4S37Xz39nkR37rO7mEcwD4jLmzQ94MjyBqMEQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Assessment3.Customer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assessment3.Customer.html",
+          "hash": "KLfLmbgMH0bGDq0KmzB2YGC36Tx1Sut8I/eMxO4IirI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Assessment3.CustomerIterator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assessment3.CustomerIterator.html",
+          "hash": "/c/gkdYjsVmYLb1VttBE9SDEEx8Jbe1zOU+Me3akbvM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Assessment3.CustomersMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assessment3.CustomersMenu.html",
+          "hash": "hCZFKauqO/7AlyX9MUC2SiGZ0T1iouMEMWFb/3+FWbs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Assessment3.Deleting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assessment3.Deleting.html",
+          "hash": "SNv9qQP9t1jMSUb+mfw0TsmrCa5enSjx1gIbgaHOAaw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Assessment3.DeletingCustomer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assessment3.DeletingCustomer.html",
+          "hash": "6LVwq95n212aYYq07hXzfwiI+h7qnmgoYUMoDRA44pg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Assessment3.Editing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assessment3.Editing.html",
+          "hash": "a2fPEF/wCYyLJN+MDkKqpPiuv1Z0OvvTg7y0MAs7M/g="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Assessment3.EditingCustomer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assessment3.EditingCustomer.html",
+          "hash": "Su98GRtCRyvme/Jzqz0+Pw05RpbDlKaDnGbzpR2giaA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Assessment3.Everyday.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assessment3.Everyday.html",
+          "hash": "tlfzicqlsih7+wR7pTxqbUXNX1dk1TjKiwfMOwqbSx8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Assessment3.Finding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assessment3.Finding.html",
+          "hash": "0nQZmHfBtnhdM+kXqLrlwy+cd4QFvFjQYbR/QRGNS3w="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Assessment3.FindingCustomer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assessment3.FindingCustomer.html",
+          "hash": "YD0pf5LrMoEA3heMZbcJS12iMcNWOOA+C02MKjC3ImY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Assessment3.IAccounts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assessment3.IAccounts.html",
+          "hash": "UE0y3ourpP+i1rgejb8gUrPbvYIUrtiSLBuizSm2X70="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Assessment3.IIterator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assessment3.IIterator.html",
+          "hash": "TpVA18XAW8tVrGTWWIlH9ev2P8u3EAC53W+RmIXUP/Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Assessment3.IObserver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assessment3.IObserver.html",
+          "hash": "X9gf5Y4/68+6ALbkuVFRkTs95dX2ICwQNtBsvlkhjxY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Assessment3.Investment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assessment3.Investment.html",
+          "hash": "3svgg5azxIrDxlwvuRDh++2SNklXDxy7Q/mqUeQeK60="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Assessment3.Library.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assessment3.Library.html",
+          "hash": "Vde6QHlpA4TYbd9yeITsZWK8kf9kJO3gOpsInV0cMBI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Assessment3.MainMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assessment3.MainMenu.html",
+          "hash": "cTH/2WcRUcKW8hNnMFB609s9BG8XrqO/0vjfUce7miI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Assessment3.ManageAccounts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assessment3.ManageAccounts.html",
+          "hash": "T991O7JlNgzwFyfBD+yiE4aFANVYIPe+SM6YQ02vYNU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Assessment3.Omni.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assessment3.Omni.html",
+          "hash": "SciXoMABuiH+w73G7cjG59q4iUbIH/z7HZPSkXx3hpg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Assessment3.frmControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assessment3.frmControl.html",
+          "hash": "bBYypKH4m3tG1PRw4O17wymbAk6xdP9M7hBEtGtzlms="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Assessment3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assessment3.html",
+          "hash": "92cI6y/QoZ8toYyc1VdR0DgBDcYrNITycmuW+xABn/s="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "xnYBMlHmzLFQ/P8jNvkSM1cXnXIG/RLJurKPUH1MohQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Oa9PuD4E1hvZnCkVjUgzNBX6S00Zo5YilamTERTZo54="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 23,
+          "skipped_file_count": 23
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

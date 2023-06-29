@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assessment3.IIterator
+  commentId: T:Assessment3.IIterator
+  id: IIterator
+  parent: Assessment3
+  children:
+  - Assessment3.IIterator.getNext
+  - Assessment3.IIterator.isDone
+  langs:
+  - csharp
+  - vb
+  name: IIterator
+  nameWithType: IIterator
+  fullName: Assessment3.IIterator
+  type: Interface
+  source:
+    id: IIterator
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Interface.cs
+    startLine: 19
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public interface IIterator
+    content.vb: Public Interface IIterator
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Assessment3.IIterator.getNext
+  commentId: M:Assessment3.IIterator.getNext
+  id: getNext
+  parent: Assessment3.IIterator
+  langs:
+  - csharp
+  - vb
+  name: getNext()
+  nameWithType: IIterator.getNext()
+  fullName: Assessment3.IIterator.getNext()
+  type: Method
+  source:
+    id: getNext
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Interface.cs
+    startLine: 21
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: object getNext()
+    return:
+      type: System.Object
+    content.vb: Function getNext As Object
+  overload: Assessment3.IIterator.getNext*
+- uid: Assessment3.IIterator.isDone
+  commentId: M:Assessment3.IIterator.isDone
+  id: isDone
+  parent: Assessment3.IIterator
+  langs:
+  - csharp
+  - vb
+  name: isDone()
+  nameWithType: IIterator.isDone()
+  fullName: Assessment3.IIterator.isDone()
+  type: Method
+  source:
+    id: isDone
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Interface.cs
+    startLine: 22
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: bool isDone()
+    return:
+      type: System.Boolean
+    content.vb: Function isDone As Boolean
+  overload: Assessment3.IIterator.isDone*
+references:
+- uid: Assessment3
+  commentId: N:Assessment3
+  name: Assessment3
+  nameWithType: Assessment3
+  fullName: Assessment3
+- uid: Assessment3.IIterator.getNext*
+  commentId: Overload:Assessment3.IIterator.getNext
+  name: getNext
+  nameWithType: IIterator.getNext
+  fullName: Assessment3.IIterator.getNext
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assessment3.IIterator.isDone*
+  commentId: Overload:Assessment3.IIterator.isDone
+  name: isDone
+  nameWithType: IIterator.isDone
+  fullName: Assessment3.IIterator.isDone
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

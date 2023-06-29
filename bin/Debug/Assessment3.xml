@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Assessment2PartA</name>
+    </assembly>
+    <members>
+        <member name="F:Assessment3.frmControl.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Assessment3.frmControl.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Assessment3.frmControl.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Assessment3.CustomersMenu.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Assessment3.CustomersMenu.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Assessment3.CustomersMenu.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Assessment3.MainMenu.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Assessment3.MainMenu.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Assessment3.MainMenu.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Assessment3.ManageAccounts.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Assessment3.ManageAccounts.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Assessment3.ManageAccounts.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Assessment3.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:Controller">
+            <summary>
+             
+            </summary>
+        </member>
+        <member name="T:Controller.Form1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Controller.Form1.AddCustomer(System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <param name="ID"></param>
+        </member>
+        <member name="M:Controller.Form1.AddCustomerByID(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Controller.Form1.AddCustomer(System.Int32,Assessment3.Adding)">
+            <summary>
+            
+            </summary>
+            <param name="ID"></param>
+            <param name="a"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Controller.Form1.FindCustomer(System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <param name="ID"></param>
+        </member>
+        <member name="M:Controller.Form1.FindCustomerByID(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Controller.Form1.FindCustomer(System.Int32,Assessment3.Finding)">
+            <summary>
+            
+            </summary>
+            <param name="ID"></param>
+            <param name="f"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Controller.Form1.EditCustomer(System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <param name="ID"></param>
+        </member>
+        <member name="M:Controller.Form1.EditCustomer(System.Int32,Assessment3.Editing)">
+            <summary>
+            
+            </summary>
+            <param name="ID"></param>
+            <param name="e"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Controller.Form1.DeleteCustomer(System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <param name="ID"></param>
+        </member>
+        <member name="M:Controller.Form1.DeleteCustomer(System.Int32,Assessment3.Deleting)">
+            <summary>
+            
+            </summary>
+            <param name="ID"></param>
+            <param name="d"></param>
+            <returns></returns>
+        </member>
+        <member name="F:Controller.Form1.errorMessage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Assessment2PartA.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Assessment2PartA.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Assessment2PartA.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

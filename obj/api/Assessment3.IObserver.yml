@@ -1,0 +1,73 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assessment3.IObserver
+  commentId: T:Assessment3.IObserver
+  id: IObserver
+  parent: Assessment3
+  children:
+  - Assessment3.IObserver.Update(Assessment3.Customer)
+  langs:
+  - csharp
+  - vb
+  name: IObserver
+  nameWithType: IObserver
+  fullName: Assessment3.IObserver
+  type: Interface
+  source:
+    id: IObserver
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Interface.cs
+    startLine: 8
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public interface IObserver
+    content.vb: Public Interface IObserver
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Assessment3.IObserver.Update(Assessment3.Customer)
+  commentId: M:Assessment3.IObserver.Update(Assessment3.Customer)
+  id: Update(Assessment3.Customer)
+  parent: Assessment3.IObserver
+  langs:
+  - csharp
+  - vb
+  name: Update(Customer)
+  nameWithType: IObserver.Update(Customer)
+  fullName: Assessment3.IObserver.Update(Assessment3.Customer)
+  type: Method
+  source:
+    id: Update
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Interface.cs
+    startLine: 10
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: void Update(Customer c)
+    parameters:
+    - id: c
+      type: Assessment3.Customer
+    content.vb: Sub Update(c As Customer)
+  overload: Assessment3.IObserver.Update*
+references:
+- uid: Assessment3
+  commentId: N:Assessment3
+  name: Assessment3
+  nameWithType: Assessment3
+  fullName: Assessment3
+- uid: Assessment3.IObserver.Update*
+  commentId: Overload:Assessment3.IObserver.Update
+  name: Update
+  nameWithType: IObserver.Update
+  fullName: Assessment3.IObserver.Update
+- uid: Assessment3.Customer
+  commentId: T:Assessment3.Customer
+  parent: Assessment3
+  name: Customer
+  nameWithType: Customer
+  fullName: Assessment3.Customer

@@ -1,0 +1,685 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assessment3.Deleting
+  commentId: T:Assessment3.Deleting
+  id: Deleting
+  parent: Assessment3
+  children:
+  - Assessment3.Deleting.#ctor
+  - Assessment3.Deleting.#ctor(System.String)
+  - Assessment3.Deleting.deleteaCustomer(Assessment3.Customer)
+  - Assessment3.Deleting.DeleteCustomer(Assessment3.Customer)
+  - Assessment3.Deleting.deletingCustomers
+  - Assessment3.Deleting.Name
+  - Assessment3.Deleting.NumCustomers
+  langs:
+  - csharp
+  - vb
+  name: Deleting
+  nameWithType: Deleting
+  fullName: Assessment3.Deleting
+  type: Class
+  source:
+    id: Deleting
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Deleting.cs
+    startLine: 9
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public class Deleting
+    content.vb: Public Class Deleting
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assessment3.Deleting.deletingCustomers
+  commentId: F:Assessment3.Deleting.deletingCustomers
+  id: deletingCustomers
+  parent: Assessment3.Deleting
+  langs:
+  - csharp
+  - vb
+  name: deletingCustomers
+  nameWithType: Deleting.deletingCustomers
+  fullName: Assessment3.Deleting.deletingCustomers
+  type: Field
+  source:
+    id: deletingCustomers
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Deleting.cs
+    startLine: 12
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public List<Customer> deletingCustomers
+    return:
+      type: System.Collections.Generic.List{Assessment3.Customer}
+    content.vb: Public deletingCustomers As List(Of Customer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assessment3.Deleting.#ctor(System.String)
+  commentId: M:Assessment3.Deleting.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Assessment3.Deleting
+  langs:
+  - csharp
+  - vb
+  name: Deleting(String)
+  nameWithType: Deleting.Deleting(String)
+  fullName: Assessment3.Deleting.Deleting(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Deleting.cs
+    startLine: 13
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public Deleting(string findCustomer)
+    parameters:
+    - id: findCustomer
+      type: System.String
+    content.vb: Public Sub New(findCustomer As String)
+  overload: Assessment3.Deleting.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assessment3.Deleting.#ctor
+  commentId: M:Assessment3.Deleting.#ctor
+  id: '#ctor'
+  parent: Assessment3.Deleting
+  langs:
+  - csharp
+  - vb
+  name: Deleting()
+  nameWithType: Deleting.Deleting()
+  fullName: Assessment3.Deleting.Deleting()
+  type: Constructor
+  source:
+    id: .ctor
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Deleting.cs
+    startLine: 17
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public Deleting()
+    content.vb: Public Sub New
+  overload: Assessment3.Deleting.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assessment3.Deleting.Name
+  commentId: P:Assessment3.Deleting.Name
+  id: Name
+  parent: Assessment3.Deleting
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Deleting.Name
+  fullName: Assessment3.Deleting.Name
+  type: Property
+  source:
+    id: Name
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Deleting.cs
+    startLine: 19
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Assessment3.Deleting.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Assessment3.Deleting.DeleteCustomer(Assessment3.Customer)
+  commentId: M:Assessment3.Deleting.DeleteCustomer(Assessment3.Customer)
+  id: DeleteCustomer(Assessment3.Customer)
+  parent: Assessment3.Deleting
+  langs:
+  - csharp
+  - vb
+  name: DeleteCustomer(Customer)
+  nameWithType: Deleting.DeleteCustomer(Customer)
+  fullName: Assessment3.Deleting.DeleteCustomer(Assessment3.Customer)
+  type: Method
+  source:
+    id: DeleteCustomer
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Deleting.cs
+    startLine: 21
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public void DeleteCustomer(Customer c)
+    parameters:
+    - id: c
+      type: Assessment3.Customer
+    content.vb: Public Sub DeleteCustomer(c As Customer)
+  overload: Assessment3.Deleting.DeleteCustomer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assessment3.Deleting.NumCustomers
+  commentId: M:Assessment3.Deleting.NumCustomers
+  id: NumCustomers
+  parent: Assessment3.Deleting
+  langs:
+  - csharp
+  - vb
+  name: NumCustomers()
+  nameWithType: Deleting.NumCustomers()
+  fullName: Assessment3.Deleting.NumCustomers()
+  type: Method
+  source:
+    id: NumCustomers
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Deleting.cs
+    startLine: 33
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public int NumCustomers()
+    return:
+      type: System.Int32
+    content.vb: Public Function NumCustomers As Integer
+  overload: Assessment3.Deleting.NumCustomers*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assessment3.Deleting.deleteaCustomer(Assessment3.Customer)
+  commentId: M:Assessment3.Deleting.deleteaCustomer(Assessment3.Customer)
+  id: deleteaCustomer(Assessment3.Customer)
+  parent: Assessment3.Deleting
+  langs:
+  - csharp
+  - vb
+  name: deleteaCustomer(Customer)
+  nameWithType: Deleting.deleteaCustomer(Customer)
+  fullName: Assessment3.Deleting.deleteaCustomer(Assessment3.Customer)
+  type: Method
+  source:
+    id: deleteaCustomer
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Deleting.cs
+    startLine: 37
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public bool deleteaCustomer(Customer c)
+    parameters:
+    - id: c
+      type: Assessment3.Customer
+    return:
+      type: System.Boolean
+    content.vb: Public Function deleteaCustomer(c As Customer) As Boolean
+  overload: Assessment3.Deleting.deleteaCustomer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assessment3
+  commentId: N:Assessment3
+  name: Assessment3
+  nameWithType: Assessment3
+  fullName: Assessment3
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{Assessment3.Customer}
+  commentId: T:System.Collections.Generic.List{Assessment3.Customer}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Customer>
+  nameWithType: List<Customer>
+  fullName: System.Collections.Generic.List<Assessment3.Customer>
+  nameWithType.vb: List(Of Customer)
+  fullName.vb: System.Collections.Generic.List(Of Assessment3.Customer)
+  name.vb: List(Of Customer)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Assessment3.Customer
+    name: Customer
+    nameWithType: Customer
+    fullName: Assessment3.Customer
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Assessment3.Customer
+    name: Customer
+    nameWithType: Customer
+    fullName: Assessment3.Customer
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Assessment3.Deleting.#ctor*
+  commentId: Overload:Assessment3.Deleting.#ctor
+  name: Deleting
+  nameWithType: Deleting.Deleting
+  fullName: Assessment3.Deleting.Deleting
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Assessment3.Deleting.Name*
+  commentId: Overload:Assessment3.Deleting.Name
+  name: Name
+  nameWithType: Deleting.Name
+  fullName: Assessment3.Deleting.Name
+- uid: Assessment3.Deleting.DeleteCustomer*
+  commentId: Overload:Assessment3.Deleting.DeleteCustomer
+  name: DeleteCustomer
+  nameWithType: Deleting.DeleteCustomer
+  fullName: Assessment3.Deleting.DeleteCustomer
+- uid: Assessment3.Customer
+  commentId: T:Assessment3.Customer
+  parent: Assessment3
+  name: Customer
+  nameWithType: Customer
+  fullName: Assessment3.Customer
+- uid: Assessment3.Deleting.NumCustomers*
+  commentId: Overload:Assessment3.Deleting.NumCustomers
+  name: NumCustomers
+  nameWithType: Deleting.NumCustomers
+  fullName: Assessment3.Deleting.NumCustomers
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Assessment3.Deleting.deleteaCustomer*
+  commentId: Overload:Assessment3.Deleting.deleteaCustomer
+  name: deleteaCustomer
+  nameWithType: Deleting.deleteaCustomer
+  fullName: Assessment3.Deleting.deleteaCustomer
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

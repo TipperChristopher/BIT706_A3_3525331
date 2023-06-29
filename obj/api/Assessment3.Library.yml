@@ -1,0 +1,677 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assessment3.Library
+  commentId: T:Assessment3.Library
+  id: Library
+  parent: Assessment3
+  children:
+  - Assessment3.Library.AddCustomer
+  - Assessment3.Library.AttachObserver(Assessment3.IObserver)
+  - Assessment3.Library.CreateIterator
+  - Assessment3.Library.myCustomers
+  - Assessment3.Library.MyObservers
+  - Assessment3.Library.NotifyCustomers(Assessment3.Customer)
+  langs:
+  - csharp
+  - vb
+  name: Library
+  nameWithType: Library
+  fullName: Assessment3.Library
+  type: Class
+  source:
+    id: Library
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Library.cs
+    startLine: 8
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public class Library
+    content.vb: Public Class Library
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assessment3.Library.myCustomers
+  commentId: F:Assessment3.Library.myCustomers
+  id: myCustomers
+  parent: Assessment3.Library
+  langs:
+  - csharp
+  - vb
+  name: myCustomers
+  nameWithType: Library.myCustomers
+  fullName: Assessment3.Library.myCustomers
+  type: Field
+  source:
+    id: myCustomers
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Library.cs
+    startLine: 10
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public List<Customer> myCustomers
+    return:
+      type: System.Collections.Generic.List{Assessment3.Customer}
+    content.vb: Public myCustomers As List(Of Customer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assessment3.Library.MyObservers
+  commentId: F:Assessment3.Library.MyObservers
+  id: MyObservers
+  parent: Assessment3.Library
+  langs:
+  - csharp
+  - vb
+  name: MyObservers
+  nameWithType: Library.MyObservers
+  fullName: Assessment3.Library.MyObservers
+  type: Field
+  source:
+    id: MyObservers
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Library.cs
+    startLine: 11
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public List<IObserver> MyObservers
+    return:
+      type: System.Collections.Generic.List{Assessment3.IObserver}
+    content.vb: Public MyObservers As List(Of IObserver)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assessment3.Library.AddCustomer
+  commentId: M:Assessment3.Library.AddCustomer
+  id: AddCustomer
+  parent: Assessment3.Library
+  langs:
+  - csharp
+  - vb
+  name: AddCustomer()
+  nameWithType: Library.AddCustomer()
+  fullName: Assessment3.Library.AddCustomer()
+  type: Method
+  source:
+    id: AddCustomer
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Library.cs
+    startLine: 13
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public void AddCustomer()
+    content.vb: Public Sub AddCustomer
+  overload: Assessment3.Library.AddCustomer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assessment3.Library.AttachObserver(Assessment3.IObserver)
+  commentId: M:Assessment3.Library.AttachObserver(Assessment3.IObserver)
+  id: AttachObserver(Assessment3.IObserver)
+  parent: Assessment3.Library
+  langs:
+  - csharp
+  - vb
+  name: AttachObserver(IObserver)
+  nameWithType: Library.AttachObserver(IObserver)
+  fullName: Assessment3.Library.AttachObserver(Assessment3.IObserver)
+  type: Method
+  source:
+    id: AttachObserver
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Library.cs
+    startLine: 20
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public void AttachObserver(IObserver obs)
+    parameters:
+    - id: obs
+      type: Assessment3.IObserver
+    content.vb: Public Sub AttachObserver(obs As IObserver)
+  overload: Assessment3.Library.AttachObserver*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assessment3.Library.NotifyCustomers(Assessment3.Customer)
+  commentId: M:Assessment3.Library.NotifyCustomers(Assessment3.Customer)
+  id: NotifyCustomers(Assessment3.Customer)
+  parent: Assessment3.Library
+  langs:
+  - csharp
+  - vb
+  name: NotifyCustomers(Customer)
+  nameWithType: Library.NotifyCustomers(Customer)
+  fullName: Assessment3.Library.NotifyCustomers(Assessment3.Customer)
+  type: Method
+  source:
+    id: NotifyCustomers
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Library.cs
+    startLine: 25
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public void NotifyCustomers(Customer c)
+    parameters:
+    - id: c
+      type: Assessment3.Customer
+    content.vb: Public Sub NotifyCustomers(c As Customer)
+  overload: Assessment3.Library.NotifyCustomers*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assessment3.Library.CreateIterator
+  commentId: M:Assessment3.Library.CreateIterator
+  id: CreateIterator
+  parent: Assessment3.Library
+  langs:
+  - csharp
+  - vb
+  name: CreateIterator()
+  nameWithType: Library.CreateIterator()
+  fullName: Assessment3.Library.CreateIterator()
+  type: Method
+  source:
+    id: CreateIterator
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Library.cs
+    startLine: 33
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public IIterator CreateIterator()
+    return:
+      type: Assessment3.IIterator
+    content.vb: Public Function CreateIterator As IIterator
+  overload: Assessment3.Library.CreateIterator*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assessment3
+  commentId: N:Assessment3
+  name: Assessment3
+  nameWithType: Assessment3
+  fullName: Assessment3
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{Assessment3.Customer}
+  commentId: T:System.Collections.Generic.List{Assessment3.Customer}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Customer>
+  nameWithType: List<Customer>
+  fullName: System.Collections.Generic.List<Assessment3.Customer>
+  nameWithType.vb: List(Of Customer)
+  fullName.vb: System.Collections.Generic.List(Of Assessment3.Customer)
+  name.vb: List(Of Customer)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Assessment3.Customer
+    name: Customer
+    nameWithType: Customer
+    fullName: Assessment3.Customer
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Assessment3.Customer
+    name: Customer
+    nameWithType: Customer
+    fullName: Assessment3.Customer
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.List{Assessment3.IObserver}
+  commentId: T:System.Collections.Generic.List{Assessment3.IObserver}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<IObserver>
+  nameWithType: List<IObserver>
+  fullName: System.Collections.Generic.List<Assessment3.IObserver>
+  nameWithType.vb: List(Of IObserver)
+  fullName.vb: System.Collections.Generic.List(Of Assessment3.IObserver)
+  name.vb: List(Of IObserver)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Assessment3.IObserver
+    name: IObserver
+    nameWithType: IObserver
+    fullName: Assessment3.IObserver
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Assessment3.IObserver
+    name: IObserver
+    nameWithType: IObserver
+    fullName: Assessment3.IObserver
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assessment3.Library.AddCustomer*
+  commentId: Overload:Assessment3.Library.AddCustomer
+  name: AddCustomer
+  nameWithType: Library.AddCustomer
+  fullName: Assessment3.Library.AddCustomer
+- uid: Assessment3.Library.AttachObserver*
+  commentId: Overload:Assessment3.Library.AttachObserver
+  name: AttachObserver
+  nameWithType: Library.AttachObserver
+  fullName: Assessment3.Library.AttachObserver
+- uid: Assessment3.IObserver
+  commentId: T:Assessment3.IObserver
+  parent: Assessment3
+  name: IObserver
+  nameWithType: IObserver
+  fullName: Assessment3.IObserver
+- uid: Assessment3.Library.NotifyCustomers*
+  commentId: Overload:Assessment3.Library.NotifyCustomers
+  name: NotifyCustomers
+  nameWithType: Library.NotifyCustomers
+  fullName: Assessment3.Library.NotifyCustomers
+- uid: Assessment3.Customer
+  commentId: T:Assessment3.Customer
+  parent: Assessment3
+  name: Customer
+  nameWithType: Customer
+  fullName: Assessment3.Customer
+- uid: Assessment3.Library.CreateIterator*
+  commentId: Overload:Assessment3.Library.CreateIterator
+  name: CreateIterator
+  nameWithType: Library.CreateIterator
+  fullName: Assessment3.Library.CreateIterator
+- uid: Assessment3.IIterator
+  commentId: T:Assessment3.IIterator
+  parent: Assessment3
+  name: IIterator
+  nameWithType: IIterator
+  fullName: Assessment3.IIterator

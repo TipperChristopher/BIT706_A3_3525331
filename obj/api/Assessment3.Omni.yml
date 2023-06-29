@@ -1,0 +1,541 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assessment3.Omni
+  commentId: T:Assessment3.Omni
+  id: Omni
+  parent: Assessment3
+  children:
+  - Assessment3.Omni.#ctor(System.String)
+  - Assessment3.Omni.#ctor(System.String,System.Int32)
+  - Assessment3.Omni.Info
+  - Assessment3.Omni.NumomniAcc
+  langs:
+  - csharp
+  - vb
+  name: Omni
+  nameWithType: Omni
+  fullName: Assessment3.Omni
+  type: Class
+  source:
+    id: Omni
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Accounts.cs
+    startLine: 81
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: 'public class Omni : Accounts'
+    content.vb: >-
+      Public Class Omni
+          Inherits Accounts
+  inheritance:
+  - System.Object
+  - Assessment3.Accounts
+  inheritedMembers:
+  - Assessment3.Accounts.Account
+  - Assessment3.Accounts.ID
+  - Assessment3.Accounts.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assessment3.Omni.#ctor(System.String)
+  commentId: M:Assessment3.Omni.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Assessment3.Omni
+  langs:
+  - csharp
+  - vb
+  name: Omni(String)
+  nameWithType: Omni.Omni(String)
+  fullName: Assessment3.Omni.Omni(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Accounts.cs
+    startLine: 85
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public Omni(string newomniAccount)
+    parameters:
+    - id: newomniAccount
+      type: System.String
+    content.vb: Public Sub New(newomniAccount As String)
+  overload: Assessment3.Omni.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assessment3.Omni.#ctor(System.String,System.Int32)
+  commentId: M:Assessment3.Omni.#ctor(System.String,System.Int32)
+  id: '#ctor(System.String,System.Int32)'
+  parent: Assessment3.Omni
+  langs:
+  - csharp
+  - vb
+  name: Omni(String, Int32)
+  nameWithType: Omni.Omni(String, Int32)
+  fullName: Assessment3.Omni.Omni(System.String, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Accounts.cs
+    startLine: 87
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public Omni(string newomniAccount, int accomniNum)
+    parameters:
+    - id: newomniAccount
+      type: System.String
+    - id: accomniNum
+      type: System.Int32
+    content.vb: Public Sub New(newomniAccount As String, accomniNum As Integer)
+  overload: Assessment3.Omni.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assessment3.Omni.NumomniAcc
+  commentId: P:Assessment3.Omni.NumomniAcc
+  id: NumomniAcc
+  parent: Assessment3.Omni
+  langs:
+  - csharp
+  - vb
+  name: NumomniAcc
+  nameWithType: Omni.NumomniAcc
+  fullName: Assessment3.Omni.NumomniAcc
+  type: Property
+  source:
+    id: NumomniAcc
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Accounts.cs
+    startLine: 92
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public int NumomniAcc { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NumomniAcc As Integer
+  overload: Assessment3.Omni.NumomniAcc*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Assessment3.Omni.Info
+  commentId: M:Assessment3.Omni.Info
+  id: Info
+  parent: Assessment3.Omni
+  langs:
+  - csharp
+  - vb
+  name: Info()
+  nameWithType: Omni.Info()
+  fullName: Assessment3.Omni.Info()
+  type: Method
+  source:
+    id: Info
+    path: F:\Open Polytechnic\Open Polytechnic Bachelor Degree in Information Technology\BIT706 Programming 3\BIT706_Assessment2_3525331_Christopher_Tipper\Assessment2PartA\Assessment2PartA\Accounts.cs
+    startLine: 94
+  assemblies:
+  - Assessment2PartA
+  namespace: Assessment3
+  syntax:
+    content: public override string Info()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function Info As String
+  overridden: Assessment3.Accounts.Info
+  overload: Assessment3.Omni.Info*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Assessment3
+  commentId: N:Assessment3
+  name: Assessment3
+  nameWithType: Assessment3
+  fullName: Assessment3
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Assessment3.Accounts
+  commentId: T:Assessment3.Accounts
+  parent: Assessment3
+  name: Accounts
+  nameWithType: Accounts
+  fullName: Assessment3.Accounts
+- uid: Assessment3.Accounts.Account
+  commentId: P:Assessment3.Accounts.Account
+  parent: Assessment3.Accounts
+  name: Account
+  nameWithType: Accounts.Account
+  fullName: Assessment3.Accounts.Account
+- uid: Assessment3.Accounts.ID
+  commentId: P:Assessment3.Accounts.ID
+  parent: Assessment3.Accounts
+  name: ID
+  nameWithType: Accounts.ID
+  fullName: Assessment3.Accounts.ID
+- uid: Assessment3.Accounts.ToString
+  commentId: M:Assessment3.Accounts.ToString
+  parent: Assessment3.Accounts
+  name: ToString()
+  nameWithType: Accounts.ToString()
+  fullName: Assessment3.Accounts.ToString()
+  spec.csharp:
+  - uid: Assessment3.Accounts.ToString
+    name: ToString
+    nameWithType: Accounts.ToString
+    fullName: Assessment3.Accounts.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Assessment3.Accounts.ToString
+    name: ToString
+    nameWithType: Accounts.ToString
+    fullName: Assessment3.Accounts.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Assessment3.Omni.#ctor*
+  commentId: Overload:Assessment3.Omni.#ctor
+  name: Omni
+  nameWithType: Omni.Omni
+  fullName: Assessment3.Omni.Omni
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Assessment3.Omni.NumomniAcc*
+  commentId: Overload:Assessment3.Omni.NumomniAcc
+  name: NumomniAcc
+  nameWithType: Omni.NumomniAcc
+  fullName: Assessment3.Omni.NumomniAcc
+- uid: Assessment3.Accounts.Info
+  commentId: M:Assessment3.Accounts.Info
+  parent: Assessment3.Accounts
+  name: Info()
+  nameWithType: Accounts.Info()
+  fullName: Assessment3.Accounts.Info()
+  spec.csharp:
+  - uid: Assessment3.Accounts.Info
+    name: Info
+    nameWithType: Accounts.Info
+    fullName: Assessment3.Accounts.Info
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Assessment3.Accounts.Info
+    name: Info
+    nameWithType: Accounts.Info
+    fullName: Assessment3.Accounts.Info
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Assessment3.Omni.Info*
+  commentId: Overload:Assessment3.Omni.Info
+  name: Info
+  nameWithType: Omni.Info
+  fullName: Assessment3.Omni.Info
